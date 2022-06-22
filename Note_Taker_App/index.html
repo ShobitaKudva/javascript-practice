@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="new.css">
+    </head>
+    <body>
+        <div class="notes">
+            <h1>Note Taker</h1>
+            <h3>Add A New Note:</h3>
+            <div class="formfield">
+                <label for="note">Note:</label>
+                   <textarea placeholder="Write your note here" name="note" id="note" autocomplete="off"></textarea><br>
+            </div>
+            <button id="entryBtn" onclick="addNote()">Add Note</button>
+            <p id="output">No notes added yet!</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
