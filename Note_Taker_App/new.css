@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab&family=Yusei+Magic&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.formfield{
+    display: flex;
+}
+
+label{
+    margin-right: 10px;
+}
+
+#note{
+  margin-bottom: 20px;
+  width: 500px;
+  outline: none !important;
+  border:1px solid #00FFFF;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+#output{
+    text-align: left;
+}
+
+h3{
+    color: #228B22;
+}
+
+button#entryBtn{
+    color: white;
+    background-color: #228B22;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #98FB98;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+
+
