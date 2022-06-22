@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="new.css">
+    </head>
+    <body>
+        <div class="expenses">
+            <h1>Expense Tracker</h1>
+            <h3>Add A New Item:</h3>
+           <div class="entries">
+                Name: <input placeholder="Where was the expenses made?" type="text" id="name" autocomplete="off"/>
+                <div class="subEntries">
+                    Date: <input type="date" id="date1" placeholder="mm-dd-yyyy" class="inp"/>
+                    Amount: <input id="amount" width="50" autocomplete="off" class="inp"/>
+                </div>
+           </div>
+                <button id="entryBtn" onclick="addEntry()">Add Expense</button>
+    
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="noData show">
+                        <td colspan="4">No expenses added yet!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
